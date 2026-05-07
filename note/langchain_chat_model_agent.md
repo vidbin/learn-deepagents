@@ -4,6 +4,8 @@
 
 ```python
 from langchain.chat_models import init_chat_model
+# 使用 OpenAI
+model = init_chat_model(model="openai:gpt-4")
 
 # 使用 OpenAI
 model = init_chat_model(model="gpt-4", model_provider="openai")
