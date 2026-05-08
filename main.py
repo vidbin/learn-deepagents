@@ -3,6 +3,7 @@ from deepagents.backends import FilesystemBackend
 from deepagents.middleware import SkillsMiddleware
 from langchain.chat_models import init_chat_model
 from langchain_core.messages import HumanMessage
+from langchain_mcp_adapters.client import MultiServerMCPClient
 from langgraph.checkpoint.memory import MemorySaver
 
 from HotSkillMiddleware import HotSkillMiddleware
